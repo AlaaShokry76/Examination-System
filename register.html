@@ -17,21 +17,27 @@
             <form id="registerForm">
                 <div class="form-group">
                     <input type="text" id="fullname" required placeholder="Full Name">
+                    <span class="error" id="fullnameError"></span>
                 </div>
                 <div class="form-group">
                     <input type="text" id="username" required placeholder="Username">
+                    <span class="error" id="usernameError"></span>
                 </div>
                 <div class="form-group">
                     <input type="email" id="email" required placeholder="Email">
+                    <span class="error" id="emailError"></span>
                 </div>
                 <div class="form-group">
                     <input type="password" id="password" required placeholder="Password">
+                    <span class="error" id="passwordError"></span>
                 </div>
                 <div class="form-group">
                     <input type="password" id="confirmPassword" required placeholder="Confirm Password">
+                    <span class="error" id="confirmPasswordError"></span>
                 </div>
                 <button type="submit">Register</button>
             </form>
+            
             <p>Already have an account? <a href="login.html">Login here</a></p>
         </div>
     </div>

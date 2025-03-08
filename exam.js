@@ -50,6 +50,7 @@ class Exam {
         }
     }
     
+
     startTimer() {
         const timerProgress = document.getElementById('timer-progress');
         const totalTime = 200; 
@@ -67,6 +68,7 @@ class Exam {
             }
         }, 1000);
     }
+    
     
     updateTimerDisplay() {
         const minutes = Math.floor(this.timeLeft / 60);

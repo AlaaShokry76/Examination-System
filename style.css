@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +13,12 @@ body {
 }
 
 
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
 
 
 input {
@@ -43,12 +48,6 @@ button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
-
-
-
-
-
-
 
 
 
@@ -171,7 +170,7 @@ button:active {
 
 
 
-/* Base Styles */
+
 
 
 
@@ -184,7 +183,7 @@ button:active {
 
 }
 
-/* Header Styles */
+
 .exam-header {
     background: rgb(210, 243, 232);
     padding: 3rem ;
@@ -240,7 +239,6 @@ button:active {
     color: #000;
 }
 
-/* Main Content Layout */
 .main-content {
     display: flex;
     gap: 2rem;
@@ -249,7 +247,6 @@ button:active {
     background-color: #ffff;
 }
 
-/* Sidebar Styles */
 .sidebar {
     margin-top: 200px;
     width: 300px;
@@ -293,7 +290,6 @@ button:active {
     color: #4caf50;
 }
 
-/* Timer Styles */
 .timer-bar {
     width: 100%;
     height: 8px;
@@ -317,7 +313,6 @@ button:active {
     color: #666;
 }
 
-/* Exam Container Styles */
 #question-container{
     height: 100vh;
 }
@@ -380,7 +375,6 @@ display: flex;
 flex-direction: column;
     
 }
-/* Options Grid */
 .options-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -417,7 +411,6 @@ margin-top: 10px;
 margin-left:-200px ;
 }
 
-/* Navigation Buttons */
 .navigation-buttons {
     margin-top: 100px;
     margin-bottom: 200px;
@@ -458,7 +451,6 @@ margin-left:-200px ;
     box-shadow: none;
 }
 
-/* Result Container Styles */
 #result-container {
     position: fixed;
     top: 0;
